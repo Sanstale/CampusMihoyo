@@ -1,0 +1,9 @@
+<view>
+    <view class="input_content">
+        <input autoFocus bindinput="bindKeyInput" class="input_num" placeholder="请输入学号" type="number"></input>
+        <button bindtap="startClick" class="input_btn" type="primary">查询</button>
+    </view>
+    <view class="scan_content">
+        <button bindtap="scanClick" class="scan_btn" type="primary">使用扫一扫</button>
+    </view>
+</view>

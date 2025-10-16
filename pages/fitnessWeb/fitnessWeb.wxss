@@ -1,0 +1,76 @@
+.privacy {
+    -webkit-align-items: center;
+    align-items: center;
+    background: rgba(0,0,0,.5);
+    bottom: 0;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 9999999
+}
+
+.content {
+    background: #fff;
+    border-radius: 16rpx;
+    box-sizing: border-box;
+    padding: 48rpx;
+    width: 632rpx
+}
+
+.content .title {
+    color: #333;
+    font-size: 32rpx;
+    font-weight: 700;
+    text-align: center
+}
+
+.content .des {
+    color: #666;
+    font-size: 26rpx;
+    line-height: 1.6;
+    margin-top: 40rpx;
+    text-align: justify
+}
+
+.content .des .link {
+    color: #07c160;
+    text-decoration: underline
+}
+
+.btns {
+    margin-top: 48rpx
+}
+
+.btns,.btns .item {
+    display: -webkit-flex;
+    display: flex
+}
+
+.btns .item {
+    -webkit-align-items: center;
+    align-items: center;
+    border: none;
+    border-radius: 16rpx;
+    box-sizing: border-box;
+    height: 80rpx;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-justify-content: center;
+    justify-content: center;
+    width: 244rpx
+}
+
+.btns .reject {
+    background: #f4f4f5;
+    color: #909399
+}
+
+.btns .agree {
+    background: #07c160;
+    color: #fff
+}

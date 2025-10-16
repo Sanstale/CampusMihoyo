@@ -1,0 +1,11 @@
+<web-view src="{{url}}" wx:if="{{url}}"></web-view>
+<view class="privacy" wx:if="{{showPrivacy}}">
+    <view class="content">
+        <view class="title">隐私保护指引</view>
+        <view class="des">在使用当前小程序服务之前，请您仔细阅读<text bind:tap="openPrivacyContract" class="link">{{privacyContractName}}</text>。当您点击同意并开始时用产品服务时，即表示您已理解并同息该条款内容，如您拒绝，将无法进入小程序。</view>
+        <view class="btns">
+            <button bind:tap="exitMiniProgram" class="item reject">拒绝</button>
+            <button bindagreeprivacyauthorization="handleAgreePrivacyAuthorization" class="item agree" id="agree-btn" openType="agreePrivacyAuthorization">同意</button>
+        </view>
+    </view>
+</view>

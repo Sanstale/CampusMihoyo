@@ -1,0 +1,35 @@
+@font-face {
+    font-family: iconfont;
+    src: url(iconfont.eot?t=1595661484482-do-not-use-local-path-./app.wxss&1&37);
+    src: url(iconfont.eot?t=1595661484482#iefix-do-not-use-local-path-./app.wxss&1&77) format("embedded-opentype"),url(data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAPcAAsAAAAACAAAAAOOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqDZINFATYCJAMMCwgABCAFhG0HPBsRB1FUTZJkPzV5IggzA4UmJgLChuNYgnICG2wtVDMsSAAQD9/vxzr3vYdqgySaGLp4JIkmhkSjkahmjRB9s6aw3etu3PmTdt9nNbN5J7U5WLsHKQtPXk6d2OmrNIvWHVWr++X/v20iIiE0GplH+1eh2taszbtqPSmd4pX++0PVjCU4n8Xiknf/Z45BoVwAYwsoYHN1ARWkwC1ItWLcYeyClvg+gUb9MjALUlsfEBXmvkAc6uo0EDN2paE11Au1FVeLuCGoT6fpBeA6+Pn4AyZDJKnJzKOrB41zoOZ794/DvFKdGPMY6HResFtkTAAKsVfp38BF+QmcRlXPN9fWKkKaKlVVBETT1lr/8EiCqGU2N4MRZE0uijoyEj8OlVdNH253LRrwCEj+xNzIvxSU1uCgoITwmMBAszrh+dVTdRt7ODKkTCQzuhNiMU0+BU3UBrXR5TR9M4BxHyH9jA32p9pxpGARIcIoHBmFj3L36lXKgmbRN0wp7brqSlJbsz6VPrF6sZ/SvieJneCGF42b15OqzP9VuIfOykP4Jw2Je7iDB1iwhn/MDB5gcgrBP/wPo7BF4GMK84KVqIDi+Q8fzrsajjq4efJszt238qfkv/9qikuMJ2XpIT8M/ENLgdAl+CvCP5QMan/hdHDJqqB+5bY89zivVpYL6i5JM813Ghlt70Cr3+RufmDX09zk89L2c+2jUiFkj2IHWkavl3RMPWPn2PW3u2v3cyVJ4JfknBrHwguwo6CuizEspsuyGKZr6WQowScsMAWgmm/lrKAoV+X0f/s7ho4P/k66Ff/qzQK+1f5fwVilgO4N6iUY/ZO040jRVKYjF4U4xChlW4T3hBC5wf9rh05fhgd7gMQb6jmFkNTpg6zeALNwJ6BGkymoVW8aGo2TbzfpQnCiNGDMJoDQ7jYkrb5C1u4ls3A/Q41ev6BWe3DQaC0inmwyFLqvnuBpiufQzDLSZ11HsV3UF7b2YHXemiZpVSAcwMSvp1BuVk6+JGMHkylO+BfUPEoVpBDXRhL4GLYsF3nENfAszdIo9cqys5WqT8qadW3gM4/AplHYHGTGMkQ3y+VQvMmUr/D9PTDVPMs00jBUlR+AEX768kiuLDkdmLLe6TR0K6v9FqjyUJSCdykIlw2RoBezrLwL8ao3GbBZVBZtQNZTJhuNU7rqs5Y32u93ARqZt3OkyFHU7euOuoh1MfDlAgAAAA==) format("woff2"),url(iconfont.woff?t=1595661484482-do-not-use-local-path-./app.wxss&1&77) format("woff"),url(iconfont.ttf?t=1595661484482-do-not-use-local-path-./app.wxss&1&77) format("truetype"),url(iconfont.svg?t=1595661484482#iconfont-do-not-use-local-path-./app.wxss&1&77) format("svg")
+}
+
+.iconfont {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: iconfont!important;
+    font-size: 16px;
+    font-style: normal
+}
+
+.icon-dingwei:before {
+    content: "\e793"
+}
+
+.icon-dingwei1:before {
+    content: "\e651"
+}
+
+.container {
+    -webkit-align-items: center;
+    align-items: center;
+    box-sizing: border-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    height: 100vh;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    position: relative
+}

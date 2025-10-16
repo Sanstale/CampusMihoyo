@@ -1,0 +1,39 @@
+{
+  "entryPagePath": "pages/fitnessWeb/fitnessWeb",
+  "pages": [
+    "pages/fitnessWeb/fitnessWeb",
+    "pages/shu/fitnessWeb",
+    "pages/shutcm/fitnessWeb",
+    "pages/fitness/fitness",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/login/login",
+    "pages/scanCode/scanCode",
+    "pages/score/score"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "跑步定位"
+    }
+  },
+  "requiredBackgroundModes": [
+    "location"
+  ],
+  "style": "v2",
+  "renderer": "webview",
+  "requiredPrivateInfos": [
+    "getLocation",
+    "startLocationUpdate",
+    "startLocationUpdateBackground",
+    "onLocationChange"
+  ],
+  "__usePrivacyCheck__": true,
+  "componentFramework": "exparser",
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "体育管理",
+    "navigationBarTextStyle": "black"
+  },
+  "plugins": {}
+}

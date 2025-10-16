@@ -1,0 +1,20 @@
+<view class="container">
+    <view class="out_map">
+        <map showLocation class="container_map" id="myMap" latitude="{{latitude}}" longitude="{{longitude}}" markers="{{markers}}" polyline="{{polyline}}"></map>
+        <view bindtap="resetPosition" class="setPos">
+            <view class="iconfont icon-dingwei"></view>
+        </view>
+    </view>
+    <view class="content">
+        <view class="gl">
+            <text class="gl_num">{{strollDistance/1000}}</text>
+            <text class="gl_text">公里</text>
+        </view>
+        <view class="gl">
+            <text class="gl_num">{{time}}</text>
+            <text class="gl_text">用时</text>
+        </view>
+        <view bindtap="startClick" class="circle_start circle" wx:if="{{status===0}}">开始</view>
+        <view bindtap="endclick" class="circle_end circle" wx:if="{{status===1}}">结束</view>
+    </view>
+</view>
